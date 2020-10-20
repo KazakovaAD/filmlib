@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -35,26 +34,22 @@
     <link href="/site/css/floating-labels.css" rel="stylesheet">
 </head>
 <body>
-<form class="form-signin">
+<form class="form-signin" name="login-form" method="post" action="\site\auth.php">
     <div class="text-center mb-4">
         <h1 class="h3 mb-3 font-weight-normal">Авторизация</h1>
     </div>
 
     <div class="form-label-group">
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <input type="text" name="login"  class="form-control" placeholder="Login" required autofocus>
         <label for="inputEmail">Почта</label>
     </div>
 
     <div class="form-label-group">
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
         <label for="inputPassword">Пароль</label>
     </div>
 
-    <div class="checkbox mb-3">
-        <label>
-            <input type="checkbox" value="remember-me"> Запомнить пароль
-        </label>
-    </div>
+
     <button class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>
     <p class="mt-5 mb-3 text-muted text-center">&copy; 2020</p>
 </form>

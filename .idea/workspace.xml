@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9051a6b-23b1-41ff-b209-77a89230dd4e" name="Default Changelist" comment="">
+    <list default="true" id="b9051a6b-23b1-41ff-b209-77a89230dd4e" name="Default Changelist" comment="доработала форму авторизации">
+      <change afterPath="$PROJECT_DIR$/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.php" beforeDir="false" afterPath="$PROJECT_DIR$/lk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.php" beforeDir="false" afterPath="$PROJECT_DIR$/authorization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -56,7 +60,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/filmlib.sql" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -64,6 +68,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -77,8 +82,20 @@
       <updated>1601027761011</updated>
       <workItem from="1601027763698" duration="1327000" />
       <workItem from="1601107560752" duration="29064000" />
-      <workItem from="1601281162159" duration="2319000" />
+      <workItem from="1601281162159" duration="4536000" />
+      <workItem from="1601990145195" duration="8179000" />
+      <workItem from="1602083218491" duration="14713000" />
+      <workItem from="1602438130805" duration="13204000" />
+      <workItem from="1603011267067" duration="36790000" />
     </task>
+    <task id="LOCAL-00001" summary="доработала форму авторизации">
+      <created>1601288587717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601288587718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,24 +111,33 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="доработала форму авторизации" />
+    <option name="LAST_COMMIT_MESSAGE" value="доработала форму авторизации" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1601282117594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1601282117594" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601280693684">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603195427788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601280693684" />
-    <state width="181" height="144" key="Git.Branch.Popup" timestamp="1601280893973">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603195427788" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603195398337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="181" height="144" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601280893973" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1601232445800">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603195398337" />
+    <state width="183" height="146" key="Git.Branch.Popup" timestamp="1601288595908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601232445800" />
+    <state width="183" height="146" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601288595908" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1603190360146">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603190360146" />
     <state x="762" y="222" key="RollbackChangesDialog" timestamp="1601286475506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -120,10 +146,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601280697997" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601286498529">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601288599065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601286498529" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601288599065" />
     <state x="816" y="419" key="WebDeployment.AddServerDialog.v.1" timestamp="1601048484195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -136,9 +162,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="810" y="250" key="ftp.server.browser/0.0.1920.1040@0.0.1920.1040" timestamp="1601048710445" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1601211202665">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603104451181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601211202665" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603104451181" />
   </component>
 </project>
