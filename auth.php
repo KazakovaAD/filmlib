@@ -1,30 +1,30 @@
 <?php
-include "request.php";
-session_start();
-if(isset($_POST['login']) && isset($_POST['password']))
-{
-    $login = $_POST['login'];
-    $password = $_POST['password'];
 
-    $date = check_login($login);
-    if($date != 0)
+include "request.php";
+    if(isset($_POST['login']) && isset($_POST['password']))
     {
-        if($date['password'] == $password)
+        $login = $_POST['login'];
+        $password = md5($_POST['password']);
+
+        $data = check_login($login);
+        if($data != 0)
         {
-            //echo "Авторизация <br/>";
-            setcookie("UID", $date['id']*2);
-            header("Location: lk.php");
+            if($data['password'] == $password)
+            {
+                session_start();
+                $_SESSION['id'] = $data['id'];
+
+                header("Location: lk.php");
+            }
+            else
+            {
+                header("Location: error_password.php");
+            }
         }
         else
         {
-            //echo "Неверный пароль<br/>";
-            header("Location: error_password.php");
+            header("Location: error_login.php");
         }
     }
-    else
-    {
-        //echo "Неверный логин";
-        header("Location: error_login.php");
-    }
-}
+
 

@@ -1,9 +1,5 @@
+<?php require "check_auth.php"; ?>
 <!doctype html>
-
-<?php
-require "check_auth.php";
-?>
-
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -40,12 +36,17 @@ require "check_auth.php";
     <link href="/site/css/lk.css" rel="stylesheet">
 </head>
 <body>
-<?php require 'header.php'; ?>
-<main role="main">
+<?php
 
+require 'header.php';
+$uid = $_SESSION['id'];
+$mess = show_message($uid);
+?>
+<main role="main">
 
     <div class="album py-5 bg-light">
         <div class="container margin">
+            <p class="lead message" style="text-align: center;"><?php echo($mess['message']); ?> </p>
             <h1>Мои фильмы</h1>
             <div class="row">
                 <div class="col-md-4">
