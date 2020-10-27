@@ -34,7 +34,7 @@
     <link href="/site/css/floating-labels.css" rel="stylesheet">
 </head>
 <body>
-<form class="form-signin" name="login-form" method="post" action="\site\auth.php">
+<form class="form-signin" name="login-form" method="post" action="\site\logic\auth.php">
     <div class="text-center mb-4">
         <h1 class="h3 mb-3 font-weight-normal">Авторизация</h1>
     </div>

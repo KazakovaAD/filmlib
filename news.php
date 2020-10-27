@@ -34,7 +34,7 @@
     <link href="/site/css/carousel.css" rel="stylesheet">
 </head>
 <body>
-<?php require 'header.php'; ?>
+<?php require ("view/header.php"); ?>
 <main role="main">
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -107,7 +107,7 @@
 
 
     <!-- FOOTER -->
-    <?php require 'footer.php'; ?>
+    <?php require ('view/footer.php'); ?>
 </main>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="/site/js/bootstrap.bundle.min.js"></script></body>

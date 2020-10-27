@@ -1,4 +1,4 @@
-<?php require "check_auth.php"; ?>
+<?php require ("logic/check_auth.php"); ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -38,7 +38,7 @@
 <body>
 <?php
 
-require 'header.php';
+require ("view/header.php");
 $uid = $_SESSION['id'];
 $mess = show_message($uid);
 ?>
@@ -100,7 +100,7 @@ $mess = show_message($uid);
 
 </main>
 
-<?php require 'footer.php'; ?>
+<?php require ('view/footer.php'); ?>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="/site/js/bootstrap.bundle.min.js" ></script></body>
 </html>

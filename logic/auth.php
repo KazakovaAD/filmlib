@@ -1,6 +1,6 @@
 <?php
 
-include "request.php";
+include("logicDB/request.php");
     if(isset($_POST['login']) && isset($_POST['password']))
     {
         $login = $_POST['login'];
@@ -14,16 +14,16 @@ include "request.php";
                 session_start();
                 $_SESSION['id'] = $data['id'];
 
-                header("Location: lk.php");
+                header("Location: ../lk.php");
             }
             else
             {
-                header("Location: error_password.php");
+                header("Location: ../error_password.php");
             }
         }
         else
         {
-            header("Location: error_login.php");
+            header("Location: ../error_login.php");
         }
     }
 

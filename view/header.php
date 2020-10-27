@@ -1,4 +1,5 @@
-<?php require "auth.php" ?>
+<?php require("logic/auth.php") ?>
+
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="/site/index.php">FilmLibrary</a>
@@ -20,7 +21,7 @@
                     <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/site/lk.php") echo "active";?>" href="/site/lk.php">Личный кабинет</a>
                 </li>
             </ul>
-            <a class="navbar-brand" href="/site/lk.php?action=logout"><?php if(isset($_SESSION['id'])) echo "Выход"; else echo "Вход";?> <img width="30px" height="30px" src="/site/image/wind.png"></img></a>;
+            <a class="navbar-brand" href="/site/lk.php?action=logout"><?php if(isset($_SESSION['id'])) echo "Выход"; ?> </a>;
 
             <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Поиск" aria-label="Search">
