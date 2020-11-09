@@ -38,3 +38,12 @@ footer {
 footer p {
     margin-bottom: .25rem;
 }
+
+.hide{
+    display: none;
+}
+.center{
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+}

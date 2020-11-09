@@ -10,10 +10,7 @@ if (isset($_GET['action']))
     }
 }
 
-
 if (!$_SESSION['id'])
 {
     header("Location: authorization.php");
 }
-
-
