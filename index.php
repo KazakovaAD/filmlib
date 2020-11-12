@@ -1,4 +1,3 @@
-
 <?php require ('view/header.php'); ?>
 <main role="main">
 
@@ -125,6 +124,4 @@
 
     <!-- FOOTER -->
     <?php require ('view/footer.php'); ?>
-</main>
-<script src="/site/js/bootstrap.bundle.min.js"></script></body>
-</html>
+

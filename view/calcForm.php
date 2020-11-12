@@ -1,4 +1,3 @@
-
 <div class="margin">
     <p> Выберите тип операции: </p>
     <button type="button" class="btn btn-outline-secondary uno_btn">Унарная</button>
@@ -29,19 +28,4 @@
     <button type="submit" class="btn btn-outline-secondary" style="margin-top: 10px">Отправить</button>
 </form>
 
-<script type="text/javascript">
-    $('.uno_btn').click(function(){
-        if($('.form-uno').hasClass('hide'))
-        {
-            $('.form-bin').toggleClass('hide');
-            $('.form-uno').toggleClass('hide');
-        }
-    });
-    $('.bin_btn').click(function(){
-        if($('.form-bin').hasClass('hide'))
-        {
-            $('.form-bin').toggleClass('hide');
-            $('.form-uno').toggleClass('hide');
-        }
-    });
-</script>
+<script src="/site/js/calc-hide-form.js"></script>
