@@ -1,0 +1,14 @@
+$('.create-film').click(function(){
+    if($('.form-create').hasClass('hide'))
+    {
+        $('.form-create').toggleClass('hide');
+        $('.form-read').toggleClass('hide');
+    }
+});
+$('.read-film').click(function(){
+    if($('.form-read').hasClass('hide'))
+    {
+        $('.form-create').toggleClass('hide');
+        $('.form-read').toggleClass('hide');
+    }
+});

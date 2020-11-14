@@ -11,6 +11,19 @@ body {
     padding-bottom: 3rem;
     color: #5a5a5a;
 }
+.form-margin{
+    margin: auto;
+    width: fit-content;
+    padding-top: 10px;
+}
+.form-margin div{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.form-width{
+    width: 100%;
+}
 p{
     margin: auto;
     padding-top: 20px;
